@@ -1,4 +1,6 @@
-#pragma once
+#ifndef HIGHSCORE_H
+#define HIGHSCORE_H
+
 #include "Score.h"
 #include <algorithm>
 #include <list>
@@ -16,3 +18,4 @@ private:
 	int lenght;
 };
 
+#endif HIGHSCORE_H
