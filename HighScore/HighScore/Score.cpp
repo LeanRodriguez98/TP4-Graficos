@@ -2,11 +2,25 @@
 
 
 
-Score::Score()
+Score::Score(int _score, string _player)
+{
+	
+}
+
+Score::~Score(){}
+
+int Score::GetScore() const 
 {
 }
 
+string Score::GetPlayer() const 
+{
+}
 
-Score::~Score()
+void Score::SetScore(int newScore) 
+{
+}
+
+void Score::SetPlayer(string newPlayer)
 {
 }
